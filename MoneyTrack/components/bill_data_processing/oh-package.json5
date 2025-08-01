@@ -1,0 +1,15 @@
+{
+  "name": "bill_data_processing",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bill_base": "file:../bill_base",
+    "bill_manage": "file:../bill_manage",
+    "asset_base": "file:../asset_base",
+    "asset_manage": "file:../asset_manage",
+    "dayjs": "1.11.13"
+  }
+}

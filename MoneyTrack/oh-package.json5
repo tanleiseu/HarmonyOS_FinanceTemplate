@@ -1,0 +1,17 @@
+{
+  "modelVersion": "5.0.2",
+  "description": "Please describe the basic information.",
+  "scripts": {
+    "prettier": "prettier --check \"**/*.{js,json,md,ts,ets}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,json,md,ts,ets}\"",
+    "lint": "eslint --ext .js,.ets,.jsx,.tsx ",
+    "lint:fix": "eslint . --ext .js,.ets,.jsx,.tsx --fix"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.21",
+    "@ohos/hamock": "^1.0.0"
+  },
+  "dynamicDependencies": {}
+}

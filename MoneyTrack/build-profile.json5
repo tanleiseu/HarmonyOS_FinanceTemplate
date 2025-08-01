@@ -1,0 +1,89 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.2(14)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": false
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./products/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "commonlib",
+      "srcPath": "./commons/commonlib"
+    },
+    {
+      "name": "bill_manage",
+      "srcPath": "./components/bill_manage"
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home"
+    },
+    {
+      "name": "bill_card",
+      "srcPath": "./components/bill_card"
+    },
+    {
+      "name": "bill_chart",
+      "srcPath": "./components/bill_chart"
+    },
+    {
+      "name": "statistics",
+      "srcPath": "./features/statistics"
+    },
+    {
+      "name": "asset_manage",
+      "srcPath": "./components/asset_manage"
+    },
+    {
+      "name": "asset_card",
+      "srcPath": "./components/asset_card"
+    },
+    {
+      "name": "asset_base",
+      "srcPath": "./components/asset_base"
+    },
+    {
+      "name": "assets",
+      "srcPath": "./features/assets"
+    },
+    {
+      "name": "bill_base",
+      "srcPath": "./components/bill_base"
+    },
+    {
+      "name": "bill_data_processing",
+      "srcPath": "./components/bill_data_processing"
+    }
+  ]
+}

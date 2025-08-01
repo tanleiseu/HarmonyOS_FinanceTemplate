@@ -1,0 +1,17 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "commonlib": "file:../../commons/commonlib",
+    "home": "file:../../features/home",
+    "statistics": "file:../../features/statistics",
+    "assets": "file:../../features/assets",
+    "bill_data_processing": "file:../../components/bill_data_processing",
+    "dayjs": "1.11.13"
+  }
+}
+
