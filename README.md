@@ -17,4 +17,4 @@ Github（官方）：https://github.com/AppGalleryConnect/agc-template-market-ha
 
 | 金融理财行业模板 | 金融理财（记账）行业模板 | 
 |:---:|:---:|
-| ![输入图片说明](FinancialManagement/screenshots/%E9%A6%96%E9%A1%B5.jpeg)| ![输入图片说明](MoneyTrack/snapshots/home.png)| 
+|![输入图片说明](%E9%87%91%E8%9E%8D%E7%90%86%E8%B4%A2%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.png)|![输入图片说明](%E8%AE%B0%E8%B4%A6%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.png)| 
